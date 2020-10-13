@@ -629,6 +629,12 @@ pre code {
   }
 }
 
+.modal-body2 {
+  position:relative; /* This avoids whatever it's absolute inside of it to go off the container */
+  height: 250px; /* let's imagine that your login box height is 250px . This height needs to be added, otherwise .img-responsive will be like "Oh no, I need to be vertically aligned?! but from which value I need to be aligned??" */
+}
+
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -5973,6 +5979,7 @@ a.close.disabled {
   text-align: center;
   opacity: 0.5;
   transition: opacity 0.15s ease;
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
