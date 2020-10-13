@@ -4424,6 +4424,8 @@ input[type=button].btn-block {
   padding: 1.25rem;
 }
 
+
+
 .card-title {
   margin-bottom: 0.75rem;
 }
@@ -16205,6 +16207,17 @@ a.close.disabled {
   width: 20px;
   height: 20px;
   background: no-repeat 50%/100% 100%;
+}
+
+.des {
+    width: 200px;
+    height: 120px;
+}
+
+/* resize images */
+.des img {
+    width: 0%;
+    height: auto;
 }
 
 .carousel-control-prev-icon {
